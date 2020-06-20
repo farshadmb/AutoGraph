@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '10.0'
   s.requires_arc = true
 
-  s.dependency 'Alamofire', '~> 5.0.5'
+  s.dependency 'Alamofire'
   s.dependency 'JSONValueRX', '~> 7.0.0'
 
   s.source_files = 'AutoGraph/**/*.swift', 'QueryBuilder/**/*.swift'
